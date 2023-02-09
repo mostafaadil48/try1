@@ -1,0 +1,207 @@
+/* Default CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img{ max-width: 100%;}
+
+.fixed-with{
+    width: 1270px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/* Header CSS */
+.header{
+    background: #3498db;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    width: 250px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+
+}
+
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 84px;
+    border-right: 1px solid #fff;
+    transition: .5s;
+}
+.header-right ul li a:hover{
+    background: #2980b9;
+}
+
+/* Banner */
+.banner{
+    background: url(./img/banner2.png) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
+
+.banner-caption h1{
+    background: rgba(52, 152, 219,.8);
+    color: #fff;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 40px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.banner-caption h2{
+    background: rgba(247, 13, 249, .8);
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 34px;
+    border-radius: 5px;
+}
+
+/* About */
+
+.about{
+    margin-top: 60px;
+
+}
+.about h2{
+    font-size: 38px;
+    margin: 16px;
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 19px;
+}
+
+/* Service  Section */
+.service{
+    margin-top: 60px;
+}
+.service-item{
+    float: left;
+    width: 31.3%;
+    border: 1px solid#ddd;
+    padding: 25px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.service-item span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #2980b9;
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+}
+.service-item h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.service-item p {
+
+}
+
+/* Blog Section */
+.blog-container{
+    margin: 60px 0;
+}
+.blos-left-content{
+    float: left;
+    width: 70%;
+}
+.blos-left-notification{
+    float: right;
+    width: 25%;
+}
+.blog-item{
+    margin-bottom: 30px;
+}
+.blog-item img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 15px;
+}
+/* Blog Noti */
+.blos-left-notification{}
+.blos-left-notification h2{
+    font-size: 32px;
+    border-bottom: 1px solid #ddd;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.blos-left-notification ul{
+   
+}
+.blos-left-notification ul li{
+    list-style: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer{
+    background: rgba(53, 59, 72,1.0);
+    color: #ddd;
+    padding: 20px 0;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+.social-menu{
+    text-align: right;
+}
+
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a{
+    color: #ddd;
+    font-size: 25px;
+    margin-left: 10px
+}
+
+/* Thanks */
